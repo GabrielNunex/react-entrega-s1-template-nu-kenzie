@@ -1,0 +1,145 @@
+header {
+    background-color: var(--color-grey-1);
+    padding: 2rem 16rem;
+    box-shadow: 0px 4px 32px -12px #00000040;
+}
+
+.listItens {
+    padding: 2rem 16rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+.listEnteries {
+    display: flex;
+    flex-direction: column;
+    min-width: 24vw;
+    gap: 1.2rem;
+}
+
+.logoHedaer {
+    width: 8rem;
+}
+/* Finance Form */
+
+.financeForm {
+    padding: 2.25rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: solid 1px #00000033;
+}
+
+.labelForms {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.inputs {
+    height: 3.25rem;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: var(--color-grey-1);
+    box-sizing: border-box;
+}
+
+.buttonForm {
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: var(--color-primary);
+}
+
+.buttonForm:hover {
+    background-color: var(--color-primary-2);
+}
+
+/* Total */
+.total {
+    padding: 1.25rem;
+    border: solid 1px var(--color-grey-2);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.totalValue {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FinanceList */
+.finance {
+    width: 37.4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.financeList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.financeItem-in {
+    padding:1.25rem .75rem;
+    display: flex;
+    justify-content: space-between;
+    border-left: solid 4px var(--color-secondary);
+    border-radius: 4px;
+    background-color: var(--color-grey-1);
+}
+
+.financeItem-out {
+    padding:1.25rem .75rem;
+    display: flex;
+    justify-content: space-between;
+    border-left: solid 4px var(--color-grey-2);
+    border-radius: 4px;
+    background-color: var(--color-grey-1);
+}
+
+.financeText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.financeValue {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: .5rem;
+
+    button{
+        background-color: var(--color-grey-2);
+        border-radius: 2px;
+    }
+}
+
+.financeBtn{
+    border: none;
+    color: #212529;
+    padding: 3px 9px;
+    background-color: var(--color-grey-2);
+}
+
+/* Span e detalhes */
+.fontGrey {
+    color: var(--color-grey-3) !important;
+}
+
+.fontWhite {
+    color: white !important;
+}
+
+.fontPrimary {
+    color: var(--color-primary) !important;
+}
